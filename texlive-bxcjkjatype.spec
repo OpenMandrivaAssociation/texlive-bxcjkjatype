@@ -6,7 +6,7 @@
 # catalog-version 0.2c
 Name:		texlive-bxcjkjatype
 Version:	0.2c
-Release:	6
+Release:	7
 Summary:	Typeset Japanese with pdfLaTeX and CJK
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/bxcjkjatype
