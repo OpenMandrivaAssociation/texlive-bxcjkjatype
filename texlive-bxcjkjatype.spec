@@ -1,12 +1,6 @@
-# revision 32048
-# category Package
-# catalog-ctan /language/japanese/bxcjkjatype
-# catalog-date 2013-10-30 11:43:37 +0100
-# catalog-license other-free
-# catalog-version 0.2c
 Name:		texlive-bxcjkjatype
-Version:	0.2c
-Release:	9
+Version:	0.3
+Release:	1
 Summary:	Typeset Japanese with pdfLaTeX and CJK
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/bxcjkjatype
@@ -35,14 +29,8 @@ the pLaTeX kernel and some other packages used with it.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/bxcjkjatype/bxcjkjatype.sty
-%doc %{_texmfdistdir}/doc/latex/bxcjkjatype/LICENSE
-%doc %{_texmfdistdir}/doc/latex/bxcjkjatype/README
-%doc %{_texmfdistdir}/doc/latex/bxcjkjatype/README-ja.md
-%doc %{_texmfdistdir}/doc/latex/bxcjkjatype/sample-bxcjkjatype-beamer.pdf
-%doc %{_texmfdistdir}/doc/latex/bxcjkjatype/sample-bxcjkjatype-beamer.tex
-%doc %{_texmfdistdir}/doc/latex/bxcjkjatype/sample-bxcjkjatype.pdf
-%doc %{_texmfdistdir}/doc/latex/bxcjkjatype/sample-bxcjkjatype.tex
+%{_texmfdistdir}/tex/latex/bxcjkjatype
+%doc %{_texmfdistdir}/doc/latex/bxcjkjatype
 
 #-----------------------------------------------------------------------
 %prep
