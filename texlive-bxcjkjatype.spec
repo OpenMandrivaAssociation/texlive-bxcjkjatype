@@ -1,6 +1,6 @@
 Name:		texlive-bxcjkjatype
 Version:	0.3
-Release:	1
+Release:	2
 Summary:	Typeset Japanese with pdfLaTeX and CJK
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/bxcjkjatype
