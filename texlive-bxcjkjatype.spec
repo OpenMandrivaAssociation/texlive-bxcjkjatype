@@ -1,12 +1,12 @@
 Name:		texlive-bxcjkjatype
-Version:	0.3
-Release:	2
+Version:	54080
+Release:	1
 Summary:	Typeset Japanese with pdfLaTeX and CJK
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/bxcjkjatype
 License:	OTHER-FREE
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bxcjkjatype.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bxcjkjatype.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bxcjkjatype.r54080.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bxcjkjatype.doc.r54080.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,12 +20,12 @@ users, by providing commands that are similar to those used by
 the pLaTeX kernel and some other packages used with it.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -34,7 +34,7 @@ the pLaTeX kernel and some other packages used with it.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
